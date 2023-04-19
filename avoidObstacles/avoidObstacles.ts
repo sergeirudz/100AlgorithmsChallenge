@@ -1,5 +1,5 @@
 // how many places can we touch to make a clean jump. How many obstacles can we avoid?
-export function avoidObstacles(inputArray: number[]): number {
+export function avoidObstacles(inputArray: number[]) {
   inputArray.sort((a, b) => a - b);
 
   // get largest value in array
